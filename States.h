@@ -1,0 +1,33 @@
+#ifndef States_h
+#define States_h
+
+enum LightState 
+{
+	LIGHT_INACTIVE = 0,
+	LIGHT_ACTIVE = 1
+};
+
+enum WarningState
+{
+	WS_INACTIVE = 0,
+	WS_HIGH_TEMPERATURE_PIPE = 1,
+	WS_FAILED_START = 2,
+	WS_HIGH_SURROUNDING_TEMPERATURE = 3,
+	WS_FAN_FAILURE = 4,
+	WS_OVERPRESSURE_BURNING_CHAMBER = 5,
+	WS_STARTELEMENT_DISFUNCTION = 6
+};
+
+enum FlameState {
+	FS_INACTIVE = 0,
+	FS_ACTIVE = 1,
+	FS_CONTINOUS = 2
+};
+
+enum OperationState {
+	OS_INACTIVE = 0,
+	OS_ACTIVE = 1,
+	OS_DELAYED_START = 2
+};
+
+#endif

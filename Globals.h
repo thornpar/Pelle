@@ -1,0 +1,6 @@
+#pragma once
+
+const int LIGHT_SENSITIVTY = 81;
+const int MS_DETERMINE_CONTINOUS_STATE = 6000;
+const int MS_RESET_ALARM = 5000;
+const int MS_LONG_SIGNAL_DEFINITON = 700;
